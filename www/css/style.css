@@ -2,9 +2,63 @@ ion-content {
   text-align: center;
 }
 
+.item {
+  background-color: black;
+}
 
 .apresentacao {
+  color: white;
+  background-color: black;
   font-family: sans-serif;
-  font-weight: bolder;
   text-align: center;
+}
+
+.apresentacao img {
+  margin-top: 100px;
+}
+
+.opcoes {
+  color: white;
+  background-color: black;
+}
+.opcoes p {
+  margin-top: 155px;
+}
+
+.botao-opcoes {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.opcivil {
+  color: white;
+  background-color: black;
+}
+
+.opcivil p {
+  margin-top: 160px;
+}
+
+.botao-opcivil {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/*CSS Ricardo*/
+
+.capa-ricardo {
+  background-image: url('/img/capacete.jpg');
+}
+
+.botao-capa-ricardo {
+  margin-top: 515px;
+}
+
+/*CSS Igor*/
+.capa-igor {
+  background-image: url('/img/coreia.jpg');
+}
+
+.botao-capa-igor {
+  margin-top: 515px;
 }

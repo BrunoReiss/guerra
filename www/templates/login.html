@@ -9,24 +9,32 @@
     <form ng-submit="doLogin()">
       <div class="list">
         <label class="item item-input">
-          <span class="input-label">Usuário</span>
+          <span class="input-label">Nome de Guerra</span>
           <input type="text" ng-model="loginData.username">
+        </label>
+        <label class="item item-input">
+          <span class="input-label">Idade</span>
+          <input type="text" ng-model="loginData.age">
+        </label>
+        <label class="item item-input">
+          <span class="input-label">País</span>
+          <input type="text" ng-model="loginData.country">
+        </label>
+        <label class="item item-input">
+          <span class="input-label">E-mail</span>
+          <input type="text" ng-model="loginData.email">
         </label>
         <label class="item item-input">
           <span class="input-label">Senha</span>
           <input type="password" ng-model="loginData.password">
         </label>
         <label class="item item-input">
-          <span class="input-label">Idade</span>
-          <input type="text" ng-model="loginData.idade">
-        </label>
-        <label class="item item-input">
-          <span class="input-label">País</span>
-          <input type="text" ng-model="loginData.pais">
+          <span class="input-label">Confirmar senha</span>
+          <input type="password" ng-model="loginData.confirmPassword">
         </label>
 
         <label class="item">
-          <button class="button button-block button-balanced" type="submit" ng-click="historico()">Se alistar</button>
+          <button class="button button-block button-balanced" type="submit" ng-click="instrucoes()">Se alistar</button>
         </label>
       </div>
     </form>
