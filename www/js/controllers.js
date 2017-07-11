@@ -26,23 +26,35 @@ angular.module('starter')
   $scope.capaRicardo = function() {
     $state.go('capaRicardo')
   }
-  $scope.capaIgor = function() {
-    $state.go('capaIgor')
+  $scope.opIntel = function() {
+    $state.go('opIntel')
   }
   $scope.opCivil = function() {
     $state.go('opCivil')
   }
 })
 
-//Opções Civil
-.controller('OpCivilCtrl', function($scope, $state) {
-  $scope.introRebel = function() {
-    $state.go('introRebel')
+//Opções Inteligência
+.controller('OpIntelCtrl', function($scope, $state) {
+  $scope.capaHacker = function() {
+    $state.go('capaHacker')
   }
-  $scope.introJournal = function() {
-    $state.go('introJournal')
+  $scope.capaIgor = function() {
+    $state.go('capaIgor')
   }
 })
+
+//Opções Civil
+.controller('OpCivilCtrl', function($scope, $state) {
+  $scope.capaRebel = function() {
+    $state.go('capaRebel')
+  }
+  $scope.capaJornal = function() {
+    $state.go('capaJornal')
+  }
+})
+
+//NARRATIVAS
 
 //RICARDO (MILITARY)///////////////////////////////////////////////////////////
 
@@ -397,11 +409,74 @@ angular.module('starter')
   }
 })
 
-//(CIVILIAN - REBEL)////////////////////////////////////////////////////////
-//Intro Rebel
-.controller('IntroRebelCtrl', function($scope, $state){
+//(HACKER)////////////////////////////////////////////////////////////////////
+//Capa Hacker
+.controller('CapaHackerCtrl', function($scope, $state){
 
   })
+
+//Intro Hacker
+  .controller('IntroHackerCtrl', function($scope, $state){
+
+    })
+
+//Mapa Hacker
+.controller('MapaHackerCtrl', function($scope, $state){
+
+})
+
+//Hacker Situ 1 Controller
+.controller('Hacker1Ctrl', function($scope, $state) {
+  $scope.hacker2 = function() {
+    $state.go('hacker2')
+  }
+  $scope.hacker3 = function() {
+    $state.go('hacker3')
+  }
+})
+
+//Hacker Situ 2 Controller
+.controller('Hacker2Ctrl', function($scope, $state){
+  $scope.hacker4 = function() {
+    $state.go('hacker4')
+  }
+  $scope.hacker5 = function() {
+    $state.go('hacker5')
+  }
+})
+
+//Hacker Situ 3 Controller
+.controller('Hacker3Ctrl', function($scope, $state){
+  $scope.hacker6 = function() {
+    $state.go('hacker6')
+  }
+  $scope.hacker7 = function() {
+    $state.go('hacker7')
+  }
+})
+
+//Hacker Situ 4 Controller
+.controller('Hacker4Ctrl', function($scope, $state){
+  $scope.hacker8 = function(){
+    $state.go('hacker8')
+  }
+
+  $scope.hacker9 = function(){
+    $state.go('hacker9')
+  }
+})
+
+
+//(CIVILIAN - REBEL)////////////////////////////////////////////////////////
+//Capa Rebel
+.controller('CapaRebelCtrl', function($scope, $state){
+
+  })
+
+//Intro Rebel
+  .controller('IntroRebelCtrl', function($scope, $state){
+
+    })
 
 //Mapa Rebel
 .controller('MapaRebelCtrl', function($scope, $state){
@@ -414,17 +489,29 @@ angular.module('starter')
 })
 
 //(CIVILIAN - JOURNALIST)////////////////////////////////////////////////////////
-//Intro Journal
-.controller('IntroJournalCtrl', function($scope, $tate){
 
-  })
+//Capa Journal
+.controller('CapaJornalCtrl', function($scope, $state){
+  $scope.introJornal = function(){
+    $state.go('introJornal')
+  }
+})
+
+//Intro Journal
+.controller('IntroJornalCtrl', function($scope, $state){
+  $scope.mapaJornal = function(){
+    $state.go('mapaJornal')
+  }
+})
 
 //Mapa Journal
-.controller('MapaJournalCtrl', function($scope, $state){
-
+.controller('MapaJornalCtrl', function($scope, $state){
+  $scope.jornal1 = function(){
+    $state.go('jornal1')
+  }
 })
 
 //Journal Situação 1
-.controller('Journal1Ctrl', function($scope, $state){
+.controller('Jornal1Ctrl', function($scope, $state){
 
 })

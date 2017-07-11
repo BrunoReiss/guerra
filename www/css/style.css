@@ -30,6 +30,20 @@ ion-content {
   margin-bottom: 30px;
 }
 
+.opintel {
+  color: white;
+  background-color: black;
+}
+
+.opintel p {
+  margin-top: 160px;
+}
+
+.botao-opintel {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .opcivil {
   color: white;
   background-color: black;
@@ -44,7 +58,7 @@ ion-content {
   margin-bottom: 30px;
 }
 
-/*CSS Ricardo*/
+/*CSS Ricardo ================================================================*/
 
 .capa-ricardo {
   background-image: url('/img/capacete.jpg');
@@ -54,11 +68,76 @@ ion-content {
   margin-top: 515px;
 }
 
-/*CSS Igor*/
+/*CSS Igor ===================================================================*/
 .capa-igor {
   background-image: url('/img/coreia.jpg');
 }
 
 .botao-capa-igor {
   margin-top: 515px;
+}
+
+/*CSS Hacker =================================================================*/
+.capa-hacker {
+  background-image: url('/img/hacker.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+}
+
+.botao-capa-hacker {
+  margin-top: 515px;
+}
+
+/*CSS Rebel ==================================================================*/
+.capa-rebel {
+  background-image: url('/img/rebel.jpg');
+}
+
+.botao-capa-rebel {
+  margin-top: 515px;
+}
+
+/*CSS Journal ================================================================*/
+/*CAPA*/
+.capa-jornal {
+  background-image: url('/img/journal.jpg');
+}
+
+.botao-capa-jornal {
+  margin-top: 515px;
+}
+
+/*INTRO*/
+.intro-jornal {
+  color: white;
+  background-color: black;
+}
+
+.intro-jornal p {
+  margin-top: 250px;
+}
+
+.botao-intro-jornal {
+  margin-top: 50px;
+}
+
+/*MAPA*/
+
+.mapa-jornal {
+  color: white;
+  background-color: black;
+}
+
+/*JORNAL1*/
+
+.jornal1 {
+  color: white;
+  background-color: black;
+
+}
+
+.botao.jornal1 {
+  display: flex;
+  flex-wrap: wrap;
 }

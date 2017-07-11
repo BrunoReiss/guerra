@@ -54,12 +54,21 @@ angular.module('starter', ['ionic', 'ngMap'])
     controller: 'OpcoesCtrl',
   })
 
+//Opções Inteligência
+  .state('opIntel', {
+    url: '/opIntel',
+    templateUrl: '/templates/opIntel.html',
+    controller: 'OpIntelCtrl',
+  })
+
 //Opções Civil
 .state('opCivil', {
   url: '/opCivil',
   templateUrl: '/templates/opCivil.html',
   controller: 'OpCivilCtrl',
 })
+
+
 
 //RICARDO (MILITARY)///////////////////////////////////////
 
@@ -316,7 +325,71 @@ angular.module('starter', ['ionic', 'ngMap'])
         controller: 'Igor15Ctrl',
       })
 
-//REBEL/////////////////////////////////////////////////////////
+//Igor HACKER/////////////////////////////////////////////////////////
+//Capa HACKER
+  .state('capaHacker', {
+    url: '/capaHacker',
+    templateUrl: '/templates/capaHacker.html',
+    controller: 'CapaHackerCtrl',
+  })
+
+//Intro HACKER
+    .state('introHacker', {
+      url: '/introHacker',
+      templateUrl: '/templates/introHacker.html',
+      controller: 'IntroHackerCtrl',
+    })
+
+    //Mapa HACKER
+        .state('mapaHacker', {
+          url: '/mapaHacker',
+          templateUrl: '/templates/mapaHacker.html',
+          controller: 'MapaHackerCtrl',
+        })
+
+        //HACKER Situ 1
+            .state('hacker1', {
+              url: '/hacker1',
+              templateUrl: '/templates/hacker1.html',
+              controller: 'Hacker1Ctrl',
+            })
+
+                //HACKER Situ 2
+                    .state('hacker2', {
+                      url: '/hacker2',
+                      templateUrl: '/templates/hacker2.html',
+                      controller: 'Hacker2Ctrl',
+                    })
+
+                    //HACKER Situ 3
+                        .state('hacker3', {
+                          url: '/hacker3',
+                          templateUrl: '/templates/hacker3.html',
+                          controller: 'Hacker3Ctrl',
+                        })
+
+                        //HACKER Situ 4
+                            .state('hacker4', {
+                              url: '/hacker4',
+                              templateUrl: '/templates/hacker4.html',
+                              controller: 'Hacker4Ctrl',
+                            })
+
+                            //HACKER Situ 5
+                                .state('hacker5', {
+                                  url: '/hacker5',
+                                  templateUrl: '/templates/hacker5.html',
+                                  controller: 'Hacker5Ctrl',
+                                })
+
+//REBEL/////////////////////////////////////////////////////////////////////////
+//Capa REBEL
+.state('capaRebel', {
+  url: '/capaRebel',
+  templateUrl: '/templates/capaRebel.html',
+  controller: 'CapaRebelCtrl',
+})
+
 //Intro REBEL
 .state('introRebel', {
   url: '/introRebel',
@@ -324,13 +397,35 @@ angular.module('starter', ['ionic', 'ngMap'])
   controller: 'IntroRebelCtrl',
 })
 
-//JOURNALIST/////////////////////////////////////////////////////////
-//Intro JOURNALIST
-.state('introJournal', {
-  url: '/introJournal',
-  templateUrl: '/templates/introJournal.html',
-  controller: 'IntroJournalCtrl',
+//JOURNALIST////////////////////////////////////////////////////////////////////
+//Capa JOURNALIST
+.state('capaJornal', {
+  url: '/capaJornal',
+  templateUrl: '/templates/capaJornal.html',
+  controller: 'CapaJornalCtrl',
 })
+
+//Intro JOURNALIST
+.state('introJornal', {
+  url: '/introJornal',
+  templateUrl: '/templates/introJornal.html',
+  controller: 'IntroJornalCtrl',
+})
+
+//Mapa JOURNALIST
+.state('mapaJornal', {
+  url: '/mapaJornal',
+  templateUrl: '/templates/mapaJornal.html',
+  controller: 'MapaJornalCtrl'
+})
+
+//Situ 1 JOURNALIST
+.state('jornal1', {
+  url: '/jornal1',
+  templateUrl: '/templates/jornal1.html',
+  controller: 'Jornal1Ctrl',
+})
+
 
 
 
