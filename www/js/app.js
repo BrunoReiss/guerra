@@ -1,20 +1,9 @@
-// Ionic Starter App
-
-// angular.module is a global place for creating, registering and retrieving Angular modules
-// 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
-// the 2nd parameter is an array of 'requires'
-angular.module('starter', ['ionic', 'ngMap'])
+angular.module('jogo', ['ionic', 'ngMap'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
     if(window.cordova && window.cordova.plugins.Keyboard) {
-      // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
-      // for form inputs)
       cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
-
-      // Don't remove this line unless you know what you are doing. It stops the viewport
-      // from snapping when text inputs are focused. Ionic handles this internally for
-      // a much nicer keyboard experience.
       cordova.plugins.Keyboard.disableScroll(true);
     }
     if(window.StatusBar) {
@@ -54,6 +43,13 @@ angular.module('starter', ['ionic', 'ngMap'])
     controller: 'OpcoesCtrl',
   })
 
+//Opções Militar
+    .state('opMilitary', {
+      url: '/opMilitary',
+      templateUrl: '/templates/opMilitary.html',
+      controller: 'OpMilitaryCtrl',
+    })
+
 //Opções Inteligência
   .state('opIntel', {
     url: '/opIntel',
@@ -68,9 +64,23 @@ angular.module('starter', ['ionic', 'ngMap'])
   controller: 'OpCivilCtrl',
 })
 
+//ARMY/////////////////////////////////////////////////////////////////////////
+//Capa ARMY
+.state('capaArmy', {
+  url: '/capaArmy',
+  templateUrl: '/templates/capaArmy.html',
+  controller: 'CapaArmyCtrl',
+})
 
+//NAVY/////////////////////////////////////////////////////////////////////////
+//Capa NAVY
+.state('capaNavy', {
+  url: '/capaNavy',
+  templateUrl: '/templates/capaNavy.html',
+  controller: 'CapaNavyCtrl',
+})
 
-//RICARDO (MILITARY)///////////////////////////////////////
+//RICARDO (AIR FORCE)///////////////////////////////////////
 
 //Capa Ricardo
 .state('capaRicardo', {
@@ -426,8 +436,33 @@ angular.module('starter', ['ionic', 'ngMap'])
   controller: 'Jornal1Ctrl',
 })
 
+//Situ 2 JOURNALIST
+.state('jornal2', {
+  url: '/jornal2',
+  templateUrl: '/templates/jornal2.html',
+  controller: 'Jornal2Ctrl',
+})
 
+//Situ 3 JOURNALIST
+.state('jornal3', {
+  url: '/jornal3',
+  templateUrl: '/templates/jornal3.html',
+  controller: 'Jornal3Ctrl',
+})
 
+//Situ 4 JOURNALIST
+.state('jornal4', {
+  url: '/jornal4',
+  templateUrl: '/templates/jornal4.html',
+  controller: 'Jornal4Ctrl',
+})
+
+//Situ 5 JOURNALIST
+.state('jornal5', {
+  url: '/jornal5',
+  templateUrl: '/templates/jornal5.html',
+  controller: 'Jornal5Ctrl',
+})
 
 
   // if none of the above states are matched, use this as the fallback

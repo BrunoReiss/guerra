@@ -30,6 +30,20 @@ ion-content {
   margin-bottom: 30px;
 }
 
+.opmilitary {
+  color: white;
+  background-color: black;
+}
+
+.opmilitary p {
+  margin-top: 160px;
+}
+
+.botao-opmilitary {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .opintel {
   color: white;
   background-color: black;
@@ -58,16 +72,81 @@ ion-content {
   margin-bottom: 30px;
 }
 
+ng-map {
+  height: 430px;
+}
+
+/*CSS ARMY ===================================================================*/
+/*CAPA*/
+
+.capa-army {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('/img/army.png');
+}
+
+.botao-capa-army {
+  margin-top: 515px;
+}
+
+
+/*CSS NAVY ===================================================================*/
+/*CAPA*/
+
+.capa-navy {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('/img/navy.png');
+}
+
+.botao-capa-navy {
+  margin-top: 515px;
+}
+
+
 /*CSS Ricardo ================================================================*/
 
+/*INTRO*/
+.intro-ricardo {
+  color: white;
+  background-color: black;
+}
+
+.intro-ricardo p {
+  margin-top: 250px;
+}
+
+.botao-intro-ricardo {
+  margin-top: 50px;
+}
+
+/*CAPA*/
+
 .capa-ricardo {
-  background-image: url('/img/capacete.jpg');
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('/img/airforce.png');
 }
 
 .botao-capa-ricardo {
   margin-top: 515px;
 }
 
+/*MAPA*/
+
+.maparicardo{
+  color: white;
+  background-color: black;
+}
+
+.maparicardo p {
+  margin-top: 15px;
+  margin-left: 15px;
+  text-align: left;
+}
 /*CSS Igor ===================================================================*/
 .capa-igor {
   background-image: url('/img/coreia.jpg');
@@ -129,15 +208,75 @@ ion-content {
   background-color: black;
 }
 
+.mapa-jornal p {
+  margin-top: 15px;
+  margin-left: 15px;
+  text-align: left;
+}
+
 /*JORNAL1*/
 
 .jornal1 {
   color: white;
-  background-color: black;
-
+  text-shadow: 2px 2px black;
+  background-color: #000039;
+  background-image: url('/img/cam.jpg');
+  background-repeat: no-repeat;
 }
 
-.botao.jornal1 {
-  display: flex;
-  flex-wrap: wrap;
+.jornal1 p {
+  margin-top: 20px;
+}
+
+.botao-jornal1-1 {
+  margin-top: 460px;
+}
+
+.botao-jornal1-2 {
+  margin-top: 15px;
+}
+
+/*JORNAL2*/
+
+.jornal2 {
+  color: white;
+  text-shadow: 2px 2px black;
+  background-color: black;
+  background-image: url('/img/battery.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.jornal2 p {
+  margin-top: 120px;
+}
+
+.botao-jornal2-1 {
+  margin-top: 320px;
+}
+
+.botao-jornal2-2 {
+  margin-top: 15px;
+}
+
+/*JORNAL3*/
+
+.jornal3 {
+  color: white;
+  text-shadow: 2px 2px black;
+  background-color: white;
+  background-image: url('/img/hemo.jpg');
+  background-repeat: no-repeat;
+}
+
+.jornal3 p {
+  margin-top: 190px;
+}
+
+.botao-jornal3-1 {
+  margin-top: 200px;
+}
+
+.botao-jornal3-2 {
+  margin-top: 15px;
 }

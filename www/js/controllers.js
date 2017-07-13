@@ -1,7 +1,18 @@
-angular.module('starter')
+angular.module('jogo')
 
-.controller('ApresentacaoCtrl', function($scope, $state) {
-  $scope.login = function() {
+//Exemplo controller efeitos
+// .controller('myCtrl', function($scope, $timeout){
+//     $timeout(function() {
+//      $scope.x = 3;
+//     }, 2000);
+//
+//     $timeout(function() {
+//      $scope.x = 1;
+//     }, 6000);
+//  })
+
+.controller('ApresentacaoCtrl', function($scope, $state){
+  $scope.login = function(){
     $state.go('login');
   }
 })
@@ -23,14 +34,27 @@ angular.module('starter')
 
 //Menu Opções Controller
 .controller('OpcoesCtrl', function($scope, $state) {
-  $scope.capaRicardo = function() {
-    $state.go('capaRicardo')
+  $scope.opMilitary = function() {
+    $state.go('opMilitary')
   }
   $scope.opIntel = function() {
     $state.go('opIntel')
   }
   $scope.opCivil = function() {
     $state.go('opCivil')
+  }
+})
+
+//Opções Militar
+.controller('OpMilitaryCtrl', function($scope, $state) {
+  $scope.capaArmy = function() {
+    $state.go('capaArmy')
+  }
+  $scope.capaNavy = function() {
+    $state.go('capaNavy')
+  }
+  $scope.capaRicardo = function() {
+    $state.go('capaRicardo')
   }
 })
 
@@ -55,8 +79,19 @@ angular.module('starter')
 })
 
 //NARRATIVAS
+//ARMY///////////////////////////////////////////////////////////
+//Capa Army
+.controller('CapaArmyCtrl', function(){
 
-//RICARDO (MILITARY)///////////////////////////////////////////////////////////
+})
+
+//NAVY///////////////////////////////////////////////////////////
+//Capa Navy
+.controller('CapaNavyCtrl', function(){
+
+})
+
+//RICARDO (AIR FORCE)///////////////////////////////////////////////////////////
 
 //Capa Ricardo
 .controller('CapaRicardoCtrl', function($scope, $state){
@@ -513,5 +548,28 @@ angular.module('starter')
 
 //Journal Situação 1
 .controller('Jornal1Ctrl', function($scope, $state){
+  $scope.jornal2 = function(){
+    $state.go('jornal2')
+  }
+  $scope.jornal3 = function(){
+    $state.go('jornal3')
+  }
+})
 
+.controller('Jornal2Ctrl', function($scope, $state){
+  $scope.jornal4 = function(){
+    $state.go('jornal4')
+  }
+  $scope.jornal5 = function(){
+    $state.go('jornal5')
+  }
+})
+
+.controller('Jornal3Ctrl', function($scope, $state){
+  $scope.jornal6 = function(){
+    $state.go('jornal6')
+  }
+  $scope.jornal7 = function(){
+    $state.go('jornal7')
+  }
 })

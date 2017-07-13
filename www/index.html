@@ -6,27 +6,17 @@
     <title></title>
 
     <link rel="manifest" href="manifest.json">
-
-    <!-- un-comment this code to enable service worker
-    <script>
-      if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('service-worker.js')
-          .then(() => console.log('service worker installed'))
-          .catch(err => console.log('Error', err));
-      }
-    </script>-->
-
     <link href="lib/ionic/css/ionic.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
-    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
-    <link href="css/ionic.app.css" rel="stylesheet">
-    -->
+    <link rel="stylesheet" href="lib/animate.css/animate.min.css">
+    <!-- angular-fx.css goes after animate.css -->
+    <link rel="stylesheet" href="lib/angular-fx/src/css/angular-fx.css">
 
     <!-- ionic/angularjs js -->
     <script src="lib/ionic/js/ionic.bundle.js"></script>
     <script src="lib/ngmap/build/scripts/ng-map.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?keyAIzaSyDNcEjGNZ8g2P7e7RKe4aeul-k1pAMqP2M"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDNcEjGNZ8g2P7e7RKe4aeul-k1pAMqP2M"></script>
 
 
     <!-- cordova script (this will be a 404 during development) -->
@@ -37,12 +27,13 @@
     <script src="js/controllers.js"></script>
 
   </head>
-  <body ng-app="starter">
+  <body ng-app="jogo">
 
     <ion-pane>
 
       <ion-nav-view>
       </ion-nav-view>
     </ion-pane>
+    <!-- <script src="lib/angular-fx/src/css/angular-fx.css"></script> -->
   </body>
 </html>
