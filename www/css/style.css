@@ -273,7 +273,7 @@ p{
 }
 
 .botao-telar10-1.animated.flash{
-  margin-top: 310px;
+  margin-top: 280px;
 }
 
 .botao-telar10-2.animated.flash{
@@ -378,6 +378,42 @@ p{
 }
 
 .botao-telar19-1.animated.flash{
+  margin-top: 380px;
+}
+
+.telar20{
+  background-image: url("../img/ritela20.jpg");
+  background-size: 100%;
+}
+
+.botao-telar20-1.animated.flash{
+  margin-top: 380px;
+}
+
+.telar21{
+  background-image: url("../img/ritela21.jpg");
+  background-size: 100%;
+}
+
+.botao-telar21-1.animated.flash{
+  margin-top: 380px;
+}
+
+.telar22{
+  background-image: url("../img/ritela22.jpg");
+  background-size: 100%;
+}
+
+.botao-telar22-1.animated.flash{
+  margin-top: 380px;
+}
+
+.telar23{
+  background-image: url("../img/ritela23.jpg");
+  background-size: 100%;
+}
+
+.botao-telar23-1.animated.flash{
   margin-top: 380px;
 }
 

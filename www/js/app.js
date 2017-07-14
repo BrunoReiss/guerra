@@ -222,6 +222,34 @@ angular.module('jogo', ['ionic', 'ngMap'])
                           controller: 'Ricardo19Ctrl',
                         })
 
+                        //Ricardo Situ 20
+                                .state('ricardo20', {
+                                  url: '/ricardo20',
+                                  templateUrl: 'templates/ricardo20.html',
+                                  controller: 'Ricardo20Ctrl',
+                                })
+
+                                //Ricardo Situ 21
+                                    .state('ricardo21', {
+                                      url: '/ricardo21',
+                                      templateUrl: 'templates/ricardo21.html',
+                                      controller: 'Ricardo21Ctrl',
+                                    })
+
+//Ricardo Situ 22
+.state('ricardo22', {
+url: '/ricardo22',
+templateUrl: 'templates/ricardo22.html',
+controller: 'Ricardo22Ctrl',
+})
+
+//Ricardo Situ 23
+.state('ricardo23', {
+url: '/ricardo23',
+templateUrl: 'templates/ricardo23.html',
+controller: 'Ricardo23Ctrl',
+})
+
 
 
 //IGOR (INTELLIGENCE)////////////////////////////////////////////////////////
