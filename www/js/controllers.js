@@ -12,23 +12,8 @@ angular.module('jogo')
 //  })
 
 .controller('ApresentacaoCtrl', function($scope, $state){
-  $scope.login = function(){
-    $state.go('login');
-  }
-})
-
-
-
-.controller('LoginCtrl', function($scope, $state) {
-  $scope.instrucoes = function() {
-    $state.go('instrucoes')
-  }
-})
-
-
-.controller('InstrucoesCtrl', function($scope, $state) {
-  $scope.opcoes = function() {
-    $state.go('opcoes')
+  $scope.opcoes = function(){
+    $state.go('opcoes');
   }
 })
 

@@ -22,20 +22,6 @@ angular.module('jogo', ['ionic', 'ngMap'])
     controller: 'ApresentacaoCtrl',
   })
 
-//Login
-  .state('login', {
-    url: '/login',
-    templateUrl: '/templates/login.html',
-    controller: 'LoginCtrl',
-  })
-
-//Instruções
-  .state('instrucoes', {
-    url: '/instrucoes',
-    templateUrl: '/templates/instrucoes.html',
-    controller: 'InstrucoesCtrl',
-  })
-
 //Opções de história
   .state('opcoes', {
     url: '/opcoes',
