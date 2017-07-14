@@ -82,7 +82,7 @@ ng-map {
   background-color: white;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('img/army.png');
+  background-image: url('../img/army.png');
 }
 
 .botao-capa-army {
@@ -97,7 +97,7 @@ ng-map {
   background-color: white;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('img/navy.png');
+  background-image: url('../img/navy.png');
 }
 
 .botao-capa-navy {
@@ -143,7 +143,7 @@ p{
 }
 
 .capa-ricardo {
-  background-image: url('img/capacete.jpg');
+  background-image: url('../img/capacete.jpg');
 }
 
 .botao-capa-ricardo {
@@ -151,7 +151,7 @@ p{
 }
 
 .telar1{
-  background-image: url("img/ritela01.jpg");
+  background-image: url("../img/ritela01.jpg");
   background-size: 100%;
 }
 
@@ -164,7 +164,7 @@ p{
 }
 
 .telar2{
-  background-image: url("img/ritela02.jpg");
+  background-image: url("../img/ritela02.jpg");
   background-size: 100%;
 }
 
@@ -177,7 +177,7 @@ p{
 }
 
 .telar3{
-  background-image: url("img/ritela03.jpg");
+  background-image: url("../img/ritela03.jpg");
   background-size: 100%;
 }
 
@@ -190,7 +190,7 @@ p{
 }
 
 .telar4{
-  background-image: url("img/ritela04.jpg");
+  background-image: url("../img/ritela04.jpg");
   background-size: 100%;
 }
 
@@ -203,7 +203,7 @@ p{
 }
 
 .telar5{
-  background-image: url("img/ritela05.jpg");
+  background-image: url("../img/ritela05.jpg");
   background-size: 100%;
 }
 
@@ -216,7 +216,7 @@ p{
 }
 
 .telar6{
-  background-image: url("img/ritela06.jpg");
+  background-image: url("../img/ritela06.jpg");
   background-size: 100%;
 }
 
@@ -229,7 +229,7 @@ p{
 }
 
 .telar7{
-  background-image: url("img/ritela07.jpg");
+  background-image: url("../img/ritela07.jpg");
   background-size: 100%;
 }
 
@@ -242,7 +242,7 @@ p{
 }
 
 .telar8{
-  background-image: url("img/ritela08.jpg");
+  background-image: url("../img/ritela08.jpg");
   background-size: 100%;
 }
 
@@ -255,7 +255,7 @@ p{
 }
 
 .telar9{
-  background-image: url("img/ritela09.jpg");
+  background-image: url("../img/ritela09.jpg");
   background-size: 100%;
 }
 
@@ -268,7 +268,7 @@ p{
 }
 
 .telar10{
-  background-image: url("img/ritela10.jpg");
+  background-image: url("../img/ritela10.jpg");
   background-size: 100%;
 }
 
@@ -281,7 +281,7 @@ p{
 }
 
 .telar11{
-  background-image: url("img/ritela11.jpg");
+  background-image: url("../img/ritela11.jpg");
   background-size: 100%;
 }
 
@@ -294,7 +294,7 @@ p{
 }
 
 .telar12{
-  background-image: url("img/ritela12.jpg");
+  background-image: url("../img/ritela12.jpg");
   background-size: 100%;
 }
 
@@ -307,7 +307,7 @@ p{
 }
 
 .telar13{
-  background-image: url("img/ritela13.jpg");
+  background-image: url("../img/ritela13.jpg");
   background-size: 100%;
 }
 
@@ -320,7 +320,7 @@ p{
 }
 
 .telar14{
-  background-image: url("img/ritela14.jpg");
+  background-image: url("../img/ritela14.jpg");
   background-size: 100%;
 }
 
@@ -333,7 +333,7 @@ p{
 }
 
 .telar15{
-  background-image: url("img/ritela15.jpg");
+  background-image: url("../img/ritela15.jpg");
   background-size: 100%;
 }
 
@@ -351,7 +351,7 @@ p{
   background-color: white;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('img/airforce.png');
+  background-image: url('../img/airforce.png');
 }
 
 .botao-capa-ricardo {
@@ -372,7 +372,7 @@ p{
 }
 /*CSS Igor ===================================================================*/
 .capa-igor {
-  background-image: url('img/coreia.jpg');
+  background-image: url('../img/coreia.jpg');
 }
 
 .botao-capa-igor {
@@ -381,7 +381,7 @@ p{
 
 /*CSS Hacker =================================================================*/
 .capa-hacker {
-  background-image: url('img/hacker.jpg');
+  background-image: url('../img/hacker.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-color: black;
@@ -393,7 +393,7 @@ p{
 
 /*CSS Rebel ==================================================================*/
 .capa-rebel {
-  background-image: url('img/rebel.jpg');
+  background-image: url('../img/rebel.jpg');
 }
 
 .botao-capa-rebel {
@@ -403,7 +403,7 @@ p{
 /*CSS Journal ================================================================*/
 /*CAPA*/
 .capa-jornal {
-  background-image: url('img/journal.jpg');
+  background-image: url('../img/journal.jpg');
 }
 
 .botao-capa-jornal {
@@ -443,7 +443,7 @@ p{
   color: white;
   /*text-shadow: 2px 2px black;*/
   background-color: #000039;
-  background-image: url('img/cam.jpg');
+  background-image: url('../img/cam.jpg');
   background-repeat: no-repeat;
 }
 
@@ -465,7 +465,7 @@ p{
   color: white;
   text-shadow: 2px 2px black;
   background-color: black;
-  background-image: url('img/battery.jpg');
+  background-image: url('../img/battery.jpg');
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -488,7 +488,7 @@ p{
   color: white;
   text-shadow: 2px 2px black;
   background-color: white;
-  background-image: url('img/hemo.jpg');
+  background-image: url('../img/hemo.jpg');
   background-repeat: no-repeat;
 }
 
