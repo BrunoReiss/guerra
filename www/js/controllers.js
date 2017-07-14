@@ -174,21 +174,21 @@ angular.module('jogo')
 
 //Ricardo Situ 8 Controller
 .controller('Ricardo8Ctrl', function($scope, $state){
-  $scope.opcoes = function(){
-    $state.go('opcoes')
+  $scope.ricardo16 = function(){
+    $state.go('ricardo16')
   }
-  $scope.opcoes = function(){
-    $state.go('opcoes')
+  $scope.ricardo17 = function(){
+    $state.go('ricardo17')
   }
 })
 
 //Ricardo Situ 9 Controller
 .controller('Ricardo9Ctrl', function($scope, $state){
-  $scope.opcoes = function(){
-    $state.go('opcoes')
+  $scope.ricardo18 = function(){
+    $state.go('ricardo18')
   }
-  $scope.opcoes = function(){
-    $state.go('opcoes')
+  $scope.ricardo19 = function(){
+    $state.go('ricardo19')
   }
 })
 
@@ -247,6 +247,34 @@ angular.module('jogo')
   $scope.opcoes = function(){
     $state.go('opcoes')
   }
+  $scope.opcoes = function(){
+    $state.go('opcoes')
+  }
+})
+
+//Ricardo Situ 16 Controller
+.controller('Ricardo16Ctrl', function($scope, $state){
+  $scope.opcoes = function(){
+    $state.go('opcoes')
+  }
+})
+
+//Ricardo Situ 17 Controller
+.controller('Ricardo17Ctrl', function($scope, $state){
+  $scope.opcoes = function(){
+    $state.go('opcoes')
+  }
+})
+
+//Ricardo Situ 18 Controller
+.controller('Ricardo18Ctrl', function($scope, $state){
+  $scope.opcoes = function(){
+    $state.go('opcoes')
+  }
+})
+
+//Ricardo Situ 19 Controller
+.controller('Ricardo19Ctrl', function($scope, $state){
   $scope.opcoes = function(){
     $state.go('opcoes')
   }

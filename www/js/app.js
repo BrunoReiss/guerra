@@ -194,6 +194,36 @@ angular.module('jogo', ['ionic', 'ngMap'])
       controller: 'Ricardo15Ctrl',
     })
 
+//Ricardo Situ 16
+        .state('ricardo16', {
+          url: '/ricardo16',
+          templateUrl: 'templates/ricardo16.html',
+          controller: 'Ricardo16Ctrl',
+        })
+
+        //Ricardo Situ 17
+            .state('ricardo17', {
+              url: '/ricardo17',
+              templateUrl: 'templates/ricardo17.html',
+              controller: 'Ricardo17Ctrl',
+            })
+
+            //Ricardo Situ 18
+                    .state('ricardo18', {
+                      url: '/ricardo18',
+                      templateUrl: 'templates/ricardo18.html',
+                      controller: 'Ricardo18Ctrl',
+                    })
+
+                    //Ricardo Situ 19
+                        .state('ricardo19', {
+                          url: '/ricardo19',
+                          templateUrl: 'templates/ricardo19.html',
+                          controller: 'Ricardo19Ctrl',
+                        })
+
+
+
 //IGOR (INTELLIGENCE)////////////////////////////////////////////////////////
 //Intro Igor
   .state('introIgor', {

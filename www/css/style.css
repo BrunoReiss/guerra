@@ -345,6 +345,42 @@ p{
  margin-top: 15px;
 }
 
+.telar16{
+  background-image: url("../img/ritela16.jpg");
+  background-size: 100%;
+}
+
+.botao-telar16-1.animated.flash{
+  margin-top: 380px;
+}
+
+.telar17{
+  background-image: url("../img/ritela17.jpg");
+  background-size: 100%;
+}
+
+.botao-telar17-1.animated.flash{
+  margin-top: 380px;
+}
+
+.telar18{
+  background-image: url("../img/ritela18.jpg");
+  background-size: 100%;
+}
+
+.botao-telar18-1.animated.flash{
+  margin-top: 380px;
+}
+
+.telar19{
+  background-image: url("../img/ritela19.jpg");
+  background-size: 100%;
+}
+
+.botao-telar19-1.animated.flash{
+  margin-top: 380px;
+}
+
 /*CAPA*/
 
 .capa-ricardo {
