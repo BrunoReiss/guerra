@@ -109,6 +109,15 @@ ng-map {
 /*CSS Ricardo ================================================================*/
 
 /*INTRO*/
+p{
+  font-family: 'Russo One', sans-serif;
+  font-size: 22px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 5px;
+  margin-top: 30px;
+}
+
 .intro-ricardo {
   color: white;
   background-color: black;
@@ -140,11 +149,11 @@ ng-map {
   background-size: 100%;
 }
 
-.botao-telar1-1{
-  margin-top: 430px;
+.botao-telar1-1.animated.flash{
+  margin-top: 310px;
 }
 
-.botao-telar1-2{
+.botao-telar1-2.animated.flash{
  margin-top: 15px;
 }
 
@@ -153,11 +162,11 @@ ng-map {
   background-size: 100%;
 }
 
-.botao-telar2-1{
-  margin-top: 430px;
+.botao-telar2-1.animated.flash{
+  margin-top: 310px;
 }
 
-.botao-telar2-2{
+.botao-telar2-2.animated.flash{
  margin-top: 15px;
 }
 
@@ -166,11 +175,11 @@ ng-map {
   background-size: 100%;
 }
 
-.botao-telar3-1{
-  margin-top: 430px;
+.botao-telar3-1.animated.flash{
+  margin-top: 310px;
 }
 
-.botao-telar3-2{
+.botao-telar3-2.animated.flash{
  margin-top: 15px;
 }
 
@@ -179,11 +188,11 @@ ng-map {
   background-size: 100%;
 }
 
-.botao-telar4-1{
-  margin-top: 430px;
+.botao-telar4-1.animated.flash{
+  margin-top: 310px;
 }
 
-.botao-telar4-2{
+.botao-telar4-2.animated.flash{
  margin-top: 15px;
 }
 
@@ -192,11 +201,11 @@ ng-map {
   background-size: 100%;
 }
 
-.botao-telar5-1{
-  margin-top: 430px;
+.botao-telar5-1.animated.flash{
+  margin-top: 310px;
 }
 
-.botao-telar5-2{
+.botao-telar5-2.animated.flash{
  margin-top: 15px;
 }
 
@@ -205,11 +214,11 @@ ng-map {
   background-size: 100%;
 }
 
-.botao-telar6-1{
-  margin-top: 430px;
+.botao-telar6-1.animated.flash{
+  margin-top: 310px;
 }
 
-.botao-telar6-2{
+.botao-telar6-2.animated.flash{
  margin-top: 15px;
 }
 
@@ -218,11 +227,11 @@ ng-map {
   background-size: 100%;
 }
 
-.botao-telar7-1{
-  margin-top: 430px;
+.botao-telar7-1.animated.flash{
+  margin-top: 310px;
 }
 
-.botao-telar7-2{
+.botao-telar7-2.animated.flash{
  margin-top: 15px;
 }
 
@@ -231,11 +240,11 @@ ng-map {
   background-size: 100%;
 }
 
-.botao-telar8-1{
-  margin-top: 430px;
+.botao-telar8-1.animated.flash{
+  margin-top: 310px;
 }
 
-.botao-telar8-2{
+.botao-telar8-2.animated.flash{
  margin-top: 15px;
 }
 
@@ -244,11 +253,11 @@ ng-map {
   background-size: 100%;
 }
 
-.botao-telar9-1{
-  margin-top: 430px;
+.botao-telar9-1.animated.flash{
+  margin-top: 310px;
 }
 
-.botao-telar9-2{
+.botao-telar9-2.animated.flash{
  margin-top: 15px;
 }
 
@@ -257,11 +266,11 @@ ng-map {
   background-size: 100%;
 }
 
-.botao-telar10-1{
-  margin-top: 390px;
+.botao-telar10-1.animated.flash{
+  margin-top: 310px;
 }
 
-.botao-telar10-2{
+.botao-telar10-2.animated.flash{
  margin-top: 15px;
 }
 
@@ -270,11 +279,11 @@ ng-map {
   background-size: 100%;
 }
 
-.botao-telar11-1{
-  margin-top: 430px;
+.botao-telar11-1.animated.flash{
+  margin-top: 310px;
 }
 
-.botao-telar11-2{
+.botao-telar11-2.animated.flash{
  margin-top: 15px;
 }
 
@@ -283,11 +292,11 @@ ng-map {
   background-size: 100%;
 }
 
-.botao-telar12-1{
-  margin-top: 390px;
+.botao-telar12-1.animated.flash{
+  margin-top: 310px;
 }
 
-.botao-telar12-2{
+.botao-telar12-2.animated.flash{
  margin-top: 15px;
 }
 
@@ -296,11 +305,11 @@ ng-map {
   background-size: 100%;
 }
 
-.botao-telar13-1{
-  margin-top: 390px;
+.botao-telar13-1.animated.flash{
+  margin-top: 310px;
 }
 
-.botao-telar13-2{
+.botao-telar13-2.animated.flash{
  margin-top: 15px;
 }
 
@@ -309,11 +318,11 @@ ng-map {
   background-size: 100%;
 }
 
-.botao-telar14-1{
-  margin-top: 390px;
+.botao-telar14-1.animated.flash{
+  margin-top: 310px;
 }
 
-.botao-telar14-2{
+.botao-telar14-2.animated.flash{
  margin-top: 15px;
 }
 
@@ -322,11 +331,11 @@ ng-map {
   background-size: 100%;
 }
 
-.botao-telar15-1{
-  margin-top: 390px;
+.botao-telar15-1.animated.flash{
+  margin-top: 310px;
 }
 
-.botao-telar15-2{
+.botao-telar15-2.animated.flash{
  margin-top: 15px;
 }
 
