@@ -13,7 +13,7 @@ ion-content {
 }
 
 .botao-apresentacao {
-  
+
 }
 
 .opcoes {
@@ -113,8 +113,12 @@ p{
   font-size: 22px;
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
-  padding-top: 5px;
   margin-top: 30px;
+  padding: 10,0,10,0;
+}
+
+.testomapaRicardo{
+  font-size: 15px;
 }
 
 .intro-ricardo {
@@ -131,8 +135,11 @@ p{
 }
 
 .button.button-balanced{
-  background-color: #62d665;
+  background-color: #1949c4;
   width: 300px;
+  font-family: 'Russo One', sans-serif;
+  text-shadow: black 2px 2px;
+
 }
 
 .capa-ricardo {
